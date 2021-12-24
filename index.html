@@ -4,7 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" type="module"></script>
     <title>Doge Pong</title>
   </head>
-  <body></body>
+  <body>
+    <div class="score">
+      <div id="player-score">
+        <img class="doge-score" src="Dogecoin.png" />
+        0
+      </div>
+      <div id="computer-score">
+        0
+        <img class="doge-score" src="Dogecoin.png" />
+      </div>
+    </div>
+    <div class="doge" id="doge"></div>
+    <div class="paddle left" id="player-paddle"></div>
+    <div class="paddle right" id="computer-paddle"></div>
+  </body>
 </html>
