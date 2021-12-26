@@ -58,26 +58,18 @@ body {
 .score > * {
   flex-grow: 1;
   flex-basis: 0;
-  padding: 0 2vh;
+  padding: 0 1vh;
   margin: 1vh 0;
   opacity: 0.6;
 }
-
-/* .doge-score {
-  width: 7vh;
-  opacity: 0.6;
-  padding: 0vh 1vh;
-  margin: 1vh 0;
-} */
 
 #player-score > .doge-score,
 #computer-score > .doge-score {
   width: 7vh;
   opacity: 0.6;
   padding: 0vh 1vh;
-  margin: 1vh 0;
   position: relative;
-  top: 2vh;
+  top: 1vh;
 }
 
 .score > :first-child {
